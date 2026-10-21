@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://dwvjf6bm8l035"]
 
+<<<<<<< HEAD
 [sub_resource type="BoxMesh" id="BoxMesh_yf5fn"]
 size = Vector3(1.5732422, 1, 5.113159)
 
@@ -8,3 +9,11 @@ size = Vector3(1.5732422, 1, 5.113159)
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=346131022]
 transform = Transform3D(4385.57, 0, 0, 0, 1.0209595, 0, 0, 0, 13288.628, 0.25795898, 0, 18.02553)
 mesh = SubResource("BoxMesh_yf5fn")
+=======
+[ext_resource type="PackedScene" uid="uid://bvnb5kycfq5tx" path="res://Player.tscn" id="1_c6gwx"]
+
+[node name="Node3D" type="Node3D" unique_id=1873047419]
+
+[node name="CharacterBody3D" parent="." unique_id=1159455273 instance=ExtResource("1_c6gwx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.03516686, 2, 0.18994331)
+>>>>>>> c26ff72 (First backup of my game)
